@@ -1,0 +1,12 @@
+{
+  "name": "delegation-demo",
+  "private": true,
+  "workspaces": [
+    "offchain/*"
+  ],
+  "scripts": {
+    "dev": "npm run -w next dev",
+    "build": "npm run -w next build",
+    "start": "npm run -w next start"
+  }
+}

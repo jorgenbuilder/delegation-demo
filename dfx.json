@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "main": {
+      "main": "onchain/main/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    },
+    "vessel": {
+      "bin": "vessel"
+    }
+  },
+  "version": 1
+}
